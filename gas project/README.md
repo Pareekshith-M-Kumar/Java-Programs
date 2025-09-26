@@ -1,18 +1,53 @@
-## Getting Started
+⛽ Gas Agency Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based application to manage gas bookings, deliveries, and customers. This project demonstrates Object-Oriented Programming (OOP) concepts, modular coding with packages, and can serve as the foundation for a real-world gas booking system.
 
-## Folder Structure
+✨ Features
 
-The workspace contains two folders by default, where:
+✅ Customer registration & details management
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+✅ Book new gas cylinders
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+✅ Track booking & delivery dates
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+✅ Manage gas supplier information
 
-## Dependency Management
+✅ Bill generation for bookings
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Simple console-based interface
+🛠️ Tech Stack
+
+Language: Java (Core Java, OOP, Packages)
+
+Database: File-based storage / (can be extended to MySQL or MongoDB)
+
+Build Tool: Any Java-supported IDE (IntelliJ IDEA, Eclipse, VS Code)
+
+Version Control: Git
+📂 Project Structure
+
+GasAgencyManagement/
+
+│── src->
+
+│   ├── customer/Customer.java
+
+│   ├── booking/GasBooking.java
+
+│   ├── delivery/Delivery.java
+
+│   ├── supplier/GasSupplier.java
+
+│   └── main/Main.java
+
+│──> README.md
+
+📌 Future Enhancements
+
+💾 Connect with a relational database (MySQL/PostgreSQL)
+
+🌐 Add a web interface using Java Spring Boot
+
+📱 Extend into a mobile application
+
+📊 Generate monthly/annual reports
